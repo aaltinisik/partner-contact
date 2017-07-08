@@ -18,220 +18,220 @@ msgstr ""
 #. module: partner_external_maps
 #: field:res.users,issue_count:0
 msgid "# Issues"
-msgstr ""
+msgstr "# Issues"
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:128
 #, python-format
 msgid "Address missing on partner '%s'."
-msgstr ""
+msgstr "'%s' iş ortağının adresi kayıtlı değil."
 
 #. module: partner_external_maps
 #: field:map.website,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Oluşturan"
 
 #. module: partner_external_maps
 #: field:map.website,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "oluşturulma"
 
 #. module: partner_external_maps
 #: field:map.website,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Adı"
 
 #. module: partner_external_maps
 #: field:res.users,district_id:0
 msgid "District"
-msgstr ""
+msgstr "İlçe"
 
 #. module: partner_external_maps
 #: field:res.users,partner_latitude:0
 msgid "Geo Latitude"
-msgstr ""
+msgstr "Enlem"
 
 #. module: partner_external_maps
 #: field:res.users,date_localization:0
 msgid "Geo Localization Date"
-msgstr ""
+msgstr "Koordinat tespit tarihi"
 
 #. module: partner_external_maps
 #: field:res.users,partner_longitude:0
 msgid "Geo Longitude"
-msgstr ""
+msgstr "Boylam"
 
 #. module: partner_external_maps
 #: field:map.website,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: partner_external_maps
 #: help:map.website,address_url:0
 msgid "In this URL, {ADDRESS} will be replaced by the address."
-msgstr ""
+msgstr "Bu URL de , {ADDRESS} kısmı iş ortağı adresi ile değiştirilecek."
 
 #. module: partner_external_maps
 #: help:map.website,lat_lon_url:0
 msgid "In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and longitude (requires the module 'base_geolocalize')"
-msgstr ""
+msgstr "Bu URL de, {LATITUDE} ve {LONGITUDE} enlemi ve boylamı ile değiştirlecek. ( 'base_geolocalize' modülünü gerektirir)"
 
 #. module: partner_external_maps
 #: help:map.website,route_address_url:0
 msgid "In this URL, {START_ADDRESS} and {DEST_ADDRESS} will be replaced by the start and destination addresses."
-msgstr ""
+msgstr "Bu URL de, {START_ADDRESS} ve {DEST_ADDRESS} başlangıç adresi ve hedef adresi ile değiştirilecek."
 
 #. module: partner_external_maps
 #: help:map.website,route_lat_lon_url:0
 msgid "In this URL, {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} and {DEST_LONGITUDE} will be replaced by the latitude and longitude of the start and destination adresses (requires the module 'base_geolocalize')."
-msgstr ""
+msgstr "Bu URL de , {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} ve {DEST_LONGITUDE} başlngıç ve bitiş koordinatları ile değiştirlecekler. ('base_geolocalize' modülünü gerektirir)."
 
 #. module: partner_external_maps
 #: field:map.website,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son değiştirilme"
 
 #. module: partner_external_maps
 #: field:map.website,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Son değiştiren"
 
 #. module: partner_external_maps
 #: field:map.website,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Son güncellenme"
 
 #. module: partner_external_maps
 #: view:res.partner:partner_external_maps.view_partner_form
 msgid "Map"
-msgstr ""
+msgstr "Harita"
 
 #. module: partner_external_maps
 #: model:ir.model,name:partner_external_maps.model_map_website
 #: view:map.website:partner_external_maps.map_website_form
 #: field:res.users,context_map_website_id:0
 msgid "Map Website"
-msgstr ""
+msgstr "Harita Websitesi"
 
 #. module: partner_external_maps
 #: field:map.website,name:0
 msgid "Map Website Name"
-msgstr ""
+msgstr "Harita Websitesi Adı"
 
 #. module: partner_external_maps
 #: model:ir.actions.act_window,name:partner_external_maps.map_website_action
 #: model:ir.ui.menu,name:partner_external_maps.map_website_menu
 #: view:map.website:partner_external_maps.map_website_tree
 msgid "Map Websites"
-msgstr ""
+msgstr "Harita Websiteleri"
 
 #. module: partner_external_maps
 #: help:res.users,context_route_map_website_id:0
 msgid "Map provided used when you click on the car icon on the partner form to display an itinerary."
-msgstr ""
+msgstr "İş ortağı görünümündeki Araba simgesine tıkladığınızda açılacak harita sitesi."
 
 #. module: partner_external_maps
 #: view:res.users:partner_external_maps.view_users_form
 msgid "Maps"
-msgstr ""
+msgstr "Haritalar"
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:147
 #, python-format
 msgid "Missing map provider: you should set it in your preferences."
-msgstr ""
+msgstr "Eksik harita sağlayıcı bilgisi: Kullanıcı ayarları menüsünden ekleyebilirsiniz."
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:161
 #, python-format
 msgid "Missing parameter 'URL that uses the address' for map website '%s'."
-msgstr ""
+msgstr "Eksik parametre 'Harita için kullanılacak URL' Harita sitesi '%s'."
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:200
 #, python-format
 msgid "Missing route URL that uses the addresses for the map website '%s'"
-msgstr ""
+msgstr "Eksik rota URL adresi, Harita sitesi '%s'"
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:176
 #, python-format
 msgid "Missing route map website: you should set it in your preferences."
-msgstr ""
+msgstr "Eksik rota harita sitesi: Ayarlar bülümünden giriş yapın."
 
 #. module: partner_external_maps
 #: code:addons/partner_external_maps/partner_external_maps.py:181
 #, python-format
 msgid "Missing start address for route map: you should set it in your preferences."
-msgstr ""
+msgstr "Rota başlangıç adresiniz hatalı :kullanıcı ayarları bölümünden ayarlayın."
 
 #. module: partner_external_maps
 #: field:res.users,neighbour_id:0
 msgid "Neighbourhood"
-msgstr ""
+msgstr "Mahalle"
 
 #. module: partner_external_maps
 #: model:ir.model,name:partner_external_maps.model_res_partner
 msgid "Partner"
-msgstr ""
+msgstr "İş Ortağı"
 
 #. module: partner_external_maps
 #: field:res.users,z_payable_export:0
 msgid "Payable Account Export Code"
-msgstr ""
+msgstr "Satıcılar Hesabı aktarma kodu"
 
 #. module: partner_external_maps
 #: field:res.users,z_receivable_export:0
 msgid "Receivable Account Export Code"
-msgstr ""
+msgstr "Alıcılar Hesabı aktarma kodu"
 
 #. module: partner_external_maps
 #: field:res.users,region_id:0
 msgid "Region"
-msgstr ""
+msgstr "Semt/belde"
 
 #. module: partner_external_maps
 #: view:res.partner:partner_external_maps.view_partner_form
 msgid "Route Map"
-msgstr ""
+msgstr "Rota"
 
 #. module: partner_external_maps
 #: field:res.users,context_route_map_website_id:0
 msgid "Route Map Website"
-msgstr ""
+msgstr "Rota harita websitesi"
 
 #. module: partner_external_maps
 #: field:map.website,route_lat_lon_url:0
 msgid "Route URL that uses latitude and longitude"
-msgstr ""
+msgstr "Enlem ve Boylam kullanan rota sitesi URL si"
 
 #. module: partner_external_maps
 #: field:map.website,route_address_url:0
 msgid "Route URL that uses the addresses"
-msgstr ""
+msgstr "Adres kullanan rota URL si"
 
 #. module: partner_external_maps
 #: field:res.users,sanitized_vat:0
 msgid "Sanitized TIN"
-msgstr ""
+msgstr "Temizlenmiş Vergi No"
 
 #. module: partner_external_maps
 #: field:res.users,context_route_start_partner_id:0
 msgid "Start Address for Route Map"
-msgstr ""
+msgstr "Rota haritası için başlangıç adresi"
 
 #. module: partner_external_maps
 #: help:res.users,sanitized_vat:0
 msgid "TIN in uppercase without spaces nor special caracters."
-msgstr ""
+msgstr "Boşluk olmadan Vergi Numarası."
 
 #. module: partner_external_maps
 #: field:map.website,lat_lon_url:0
 msgid "URL that uses latitude and longitude"
-msgstr ""
+msgstr "Enlem ve boylamı kullanan URL"
 
 #. module: partner_external_maps
 #: field:map.website,address_url:0
 msgid "URL that uses the address"
-msgstr ""
+msgstr "Adres kullanan URL"
 
